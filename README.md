@@ -9,6 +9,7 @@ This terraform code will create
 9. Creates a Internet Gateway.
 10. Creates 4 route tables with the IGW as its default gw.
 11. Creates a route table association and associates the routes created earlier to the public subnets.
+12. More enhancements to come. Stay tuned!! :-) 
 
 
 Feel free to use the code and modify it to your use case. 
