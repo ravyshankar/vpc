@@ -1,7 +1,7 @@
 This terraform code will create 
 1. VPC with 172.16.0.0/16 as CIDR block. 
 3. 4 Public Subnets (172.16.2.0/24", "172.16.4.0/24", "172.16.6.0/24", "172.16.8.0/24)
-4. Utilizes AZ's southeast1a and southeast 1b and create 2 in each subnet. 
+4. Utilizes AZ's southeast1a and southeast 1b and creates 2 in each subnet. 
 5. 4 Private Subnets (172.16.1.0/24", "172.16.3.0/24", "172.16.5.0/24", "172.16.7.0/24)
 6. 4 Intranet Subnets aka Sandbox subnet (172.16.0.0/24", "172.16.10.0/24", "172.16.20.0/24)
 7. 4 DB subnets (172.16.16.0/24", "172.16.32.0/24", "172.16.48.0/24", "172.16.64.0/24)
